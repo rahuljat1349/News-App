@@ -1,3 +1,3 @@
 # React + Vite
 
-# Using Class Based Components
+# Using Functinoal Components
