@@ -1,17 +1,15 @@
 import React, { Component } from "react";
-import Navbar from "./assets/Navbar";
-import Main from "./assets/Main";
+import Navbar from "./Navbar";
+import NewsContainer from "./NewsContainer";
 document.body.style.backgroundColor = "#151515";
 document.body.style.color = "white";
-
-
 
 export default function App() {
   return (
     <>
       <Navbar />
-    
-      <Main />
+
+      <NewsContainer />
     </>
   );
 }

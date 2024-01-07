@@ -1,5 +1,6 @@
 import React, { Component, useState } from "react";
 import Menu from "./Menu";
+import { Button } from "@mui/material";
 export default function Navbar() {
   const [display, setDiplay] = useState("hidden");
 
@@ -13,7 +14,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-slate-700 w-full h-14 items-center flex justify-between px-4 md:px-6">
+      <nav className="bg-slate-900 w-full h-14 items-center flex justify-between px-4 md:px-6">
         <div className="cursor-pointer md:text-2xl text-xl text-slate-300 font-bold">
           NewsApp
         </div>
@@ -25,9 +26,7 @@ export default function Navbar() {
         <div onClick={menuToggle} className="md:hidden text-4xl">
           &#8801;
         </div>
-        <div className="cursor-pointer md:p-2 hidden md:block  bg-slate-500 p-1 rounded-lg font-semibold hover:bg-slate-900">
-          Login/SignUp
-        </div>
+        <Button variant="outlined">Login/SignUp</Button>
       </nav>
       <Menu dis={display} />
     </>
