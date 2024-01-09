@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-slate-900 w-full h-14 items-center flex justify-between px-4 md:px-6">
+      <nav className="bg-slate-900 sticky z-10 top-0 w-full h-14 items-center flex justify-between px-4 md:px-6">
         <div className="cursor-pointer md:text-2xl text-xl text-slate-300 font-bold">
           NewsApp
         </div>
