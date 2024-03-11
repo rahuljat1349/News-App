@@ -26,10 +26,7 @@ export default function Multicard() {
    
   }, []);
 
-  const click = ()=>{
-      setCount(count+1);
-      console.log(`kuch bhi ${count}`);
-    }
+
   return (
     <>
     {/* <button onClick={click}>{count}</button> */}
